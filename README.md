@@ -14,3 +14,5 @@ TradeCom is a Retrieval-Augmented Generation (RAG) system for commodity market a
 
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/6e57dc42-3cf6-43e9-9101-e405cfa75196" />
 
+Medium blog - https://medium.com/@siddharthbanga/tradecom-commodity-trading-rag-pipeline-poc-075eb72aa422
+
