@@ -9,8 +9,8 @@ TradeCom is a Retrieval-Augmented Generation (RAG) system for commodity market a
 - Produces explainable, context-rich answers supported by evidence.
 
 ## Example Query
-### User: "What insights are there for April 2025 for trading Gold?"
-"Based on the context, the financial analyst is monitoring Gold prices in 2025–04 and noting a bullish trend, highs of $3182.40 and a low of $3305.00, as well as notable observations including a bullish trend, highs of $3182.20 and a low of $3282.40, and a notable low of $3305.00. The trend is positive, with prices rising steadily since April 1, 2025, until April 28, 2025, when the high of $3340.00 was reached. The analyst observes that the trend is consistent and bullish, while the highs and lows remain above the 200-day moving average. The analyst concludes that this is a positive trend for the financial analyst to follow and that the prices could continue to rise."
+### User: "In march 2025 keeping Iran news in mind should we have invested in oil ?”
+"Based on the provided context and world news for March 2025, it is recommended to ignore any investment decision regarding Crude Oil during this time period due to the ongoing conflicts and geopolitical risks in the Middle East, which include Iran and the NATO summit taking place in Washington D.C. Additionally, there is a high likelihood of supply and demand analysis as OPEC decisions, U.S. Shale production, and inventory data being monitored. Seasonality is also a consideration in this time period, as crude oil typically fluctuates in the summer driving season and weaker demand in spring/fall."
 
 ## Models used by me
 Both are chosen keeping in mind my laptop configuration (I don’t have any dedicated GPU). all-MiniLM-L6-v2 is lightweight, fast, and accurate embedding model that captures semantic similarity well, ideal for efficient retrieval on local hardware.
