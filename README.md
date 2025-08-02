@@ -12,6 +12,10 @@ TradeCom is a Retrieval-Augmented Generation (RAG) system for commodity market a
 ### User: "What insights are there for April 2025 for trading Gold?"
 "Based on the context, the financial analyst is monitoring Gold prices in 2025–04 and noting a bullish trend, highs of $3182.40 and a low of $3305.00, as well as notable observations including a bullish trend, highs of $3182.20 and a low of $3282.40, and a notable low of $3305.00. The trend is positive, with prices rising steadily since April 1, 2025, until April 28, 2025, when the high of $3340.00 was reached. The analyst observes that the trend is consistent and bullish, while the highs and lows remain above the 200-day moving average. The analyst concludes that this is a positive trend for the financial analyst to follow and that the prices could continue to rise."
 
+## Models used by me
+Both are chosen keeping in mind my laptop configuration (I don’t have any dedicated GPU). all-MiniLM-L6-v2 is lightweight, fast, and accurate embedding model that captures semantic similarity well, ideal for efficient retrieval on local hardware.
+For generation, TinyLlama-1.1B-Chat-v1 was selected as it’s a small, chat-tuned LLM that runs on CPU/GPU locally, producing coherent, grounded answers at low latency.
+
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/6e57dc42-3cf6-43e9-9101-e405cfa75196" />
 
 Medium blog - https://medium.com/@siddharthbanga/tradecom-commodity-trading-rag-pipeline-poc-075eb72aa422
